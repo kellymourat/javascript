@@ -34,8 +34,8 @@ console.log(idadE);
 
 // let — quando o valor muda
 
-let count = 0;
-let message = "Olá, mundo!";
+const count = 0;
+const message = "Olá, mundo!";
 console.log(message);
 
 let contador = 0;
