@@ -6,10 +6,6 @@ function tabuada() {
   } else {
     let n = Number(num.value);
     let c = 1 
-    while (c <= 10){
-
-      
-    }
   }
 
 }
