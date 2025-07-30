@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body {
+  font: normal 1.2em/1.5em Arial, Helvetica, sans-serif;
+  background-color: #04b0ea;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+header {
+  padding: 30px;
+  line-height: 2.2em;
+}
+section {
+  background-color: white;
+  color: black;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #00000070;
+  padding: 20px;
+}
+select#flist {
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+#fin {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+footer {
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 10px;
+}
